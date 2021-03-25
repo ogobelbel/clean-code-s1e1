@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+</head>
+
+<body>
+  <aside class="main-image"><img src="./eisenhower-matrix.jpg" alt="eisenhower matrix image"><a class="more-inf"
+      href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></aside>
+  <main>
+    <div id="element-adding-section"><label for="element-adding-section__item">Add Item</label><input id="new-task"
+        type="text"><button>Add</button>
+    </div>
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+      <li><input type="checkbox"><label class="task">Pay Bills</label><input type="text"><button
+          class="edit-button">Edit</button><button class="clear-button"><img src="./remove.svg" alt=""></button></li>
+      <li class="incomplete-tasks__item"><input type="checkbox"><label class="task">Go Shopping</label><input type="text"
+          value="Go Shopping" class="task"><button class="edit-button">Save</button><button class="clear-button"><img
+            src="./remove.svg" alt=""></button></li>
+    </ul>
+    <h3>Completed</h3>
+    <ul id="completed-tasks">
+      <li><input type="checkbox" checked><label class="task">See the Doctor</label><input type="text"><button
+          class="edit-button">Edit</button><button class="clear-button"><img src="./remove.svg" alt=""></button>
+      </li>
+    </ul>
+  </main>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
