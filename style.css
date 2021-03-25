@@ -136,7 +136,7 @@ li>label {
 }
 
 li>input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 li>button.clear-button:hover {
@@ -160,12 +160,12 @@ button.clear-button img:hover {
 
 /* Edit Task */
 ul li input[type=text] {
-  display: none
+  display: none;
 }
 
 ul li.edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 ul li.edit-mode label {
