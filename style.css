@@ -9,23 +9,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-main {
+.main-image {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-main img {
+.main-image img {
   width: 100%;
 }
 
-main .more-inf {
+.main-image .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  main {
+  .main-image {
     text-align: center;
   }
 }
