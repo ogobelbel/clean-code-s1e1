@@ -1,4 +1,8 @@
 /* Basic Style */
+*{
+  box-sizing: border-box;
+} /* Для нормального отображения блоков после добавления DOCTYPE*/
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -16,7 +20,7 @@ body {
   width: 100%;
 }
 
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
