@@ -8,6 +8,10 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+h1{
+  position: absolute;
+  display: none;
+}
 
 .main-image {
   width: 500px;
