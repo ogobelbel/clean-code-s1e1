@@ -160,15 +160,15 @@ button.clear-button img:hover {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+li input[type=text] {
   display: none;
 }
 
-ul li.incomplete-tasks__item input[type=text] {
+li.incomplete-tasks__item input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.incomplete-tasks__item label {
+li.incomplete-tasks__item label {
   display: none;
 }
