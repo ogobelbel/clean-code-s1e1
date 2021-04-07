@@ -16,11 +16,11 @@ body {
   text-align: right;
 }
 
-.main-image img {
+ img {
   width: 100%;
 }
 
-.main-image .more-inf {
+.more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -110,7 +110,7 @@ label[for="new-elem__item"] {
   width: 318px;
 }
 
-p>button:hover {
+button:hover {
   color: #0fc57c;
 }
 
@@ -121,7 +121,7 @@ li {
   border-bottom: 1px solid #eee;
 }
 
-li>* {
+* {
   vertical-align: middle;
 }
 
@@ -136,21 +136,21 @@ li>label {
   width: 226px;
 }
 
-li>input[type="text"] {
+input[type="text"] {
   width: 226px;
 }
 
-li>button.clear-button:hover {
+button.clear-button:hover {
   color: #cf2323;
 }
 
-button.clear-button img {
+.clear-button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.clear-button img:hover {
+.clear-button img:hover {
   transform: rotateZ(0);
 }
 
@@ -161,15 +161,15 @@ button.clear-button img:hover {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+li input[type=text] {
   display: none;
 }
 
-ul li.incomplete-tasks__item input[type=text] {
+li.incomplete-tasks__item input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.incomplete-tasks__item label {
+li.incomplete-tasks__item label {
   display: none;
 }
