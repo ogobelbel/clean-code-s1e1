@@ -72,7 +72,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="element-adding-section__item"] {
+label[for="new-elem__item"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -100,7 +100,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="element-adding-section__item"] {
+label[for="new-elem__item"] {
   display: block;
   margin: 0 0 20px;
 }
